@@ -5,6 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class CreditsMenu : MonoBehaviour
 {
+
+    private void Start()
+    {
+        Application.targetFrameRate = 60;
+    }
+
     public void Quit()
     {
         Application.Quit();
